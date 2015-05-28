@@ -12,20 +12,23 @@ package abstraccion;
 public class InterfazImc {
  public static void main(String []oso){
   Imc indice=new  Imc(1.68f,80);
-  System.out.println(indice.calcula_imc());
-     if (indice.imc <20)
+  System.out.println("Tu IMC ES:"+indice.calcula_imc());
+  
+ /* System.out.println(indice.calcula_imc());
+  
+     if (indice.getImc() <20)
      {
-         System.out.println("Tienes Anorexia");
+         System.out.println("Tienes anorexia");
      } 
      else
      {
-         if(indice.imc>=20 && indice.imc <25)
+         if(indice.getImc()>=20 && indice.getImc() <25)
          {
              System.out.println("Estas en tu peso ideal");
          }else
          {
-          if (indice.imc>=25 && indice.imc <30)  {
-              System.out.println("Estas en sobrepeso");
+          if (indice.getImc()>=25 && indice.getImc() <30)  {
+              System.out.println("Estas en supergorda");
           }
           else{
               System.out.println("Estas en plena obesidad");
@@ -33,13 +36,15 @@ public class InterfazImc {
          }
      }
      
-            
+   */        
  }
     
      
      
     
 }
+
+
 
 
 
