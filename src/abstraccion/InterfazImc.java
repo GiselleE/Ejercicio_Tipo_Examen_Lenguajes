@@ -36,7 +36,27 @@ public class InterfazImc {
          }
      }
      
-   */        
+   */    
+  
+  //primitivos integrales 
+byte b=2;
+short s=2;
+int i=2;
+long l=2;
+// ha esto lo llamamos como casting forzado
+b=(byte)s;
+s=b;
+i=(int)l;
+i=s;
+s=(short)i;
+
+float f=2.0f;
+double d=2.0;
+
+boolean boo=false;
+Imc otro= new Imc();
+System.out.println(otro.isFlaco());
+
  }
     
      

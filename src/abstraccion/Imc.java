@@ -9,13 +9,27 @@ package abstraccion;
 public class Imc {
      private float peso;
     private float altura;
+    private boolean flaco;
     private float imc;
+
+    Imc() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    public void setFlaco(boolean flaco){
+        this.flaco=flaco;
+    }
+    public boolean isFlaco(){
+        return flaco;
+            
+            }
+            
+            
     public Imc(float altura, float peso){
         this.peso=peso;
         this.altura=altura;
     }
     public String calcula_imc(){
-          imc=peso/(altura*altura);
+           float imc=peso/(altura*altura);
         return "Tu imc " + imc;
     }
 
@@ -36,6 +50,7 @@ public class Imc {
     }
 
     public float getImc() {
+         float imc = 0;
         return imc;
     }
 
