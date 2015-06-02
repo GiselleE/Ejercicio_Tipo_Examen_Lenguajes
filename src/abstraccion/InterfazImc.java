@@ -12,7 +12,7 @@ package abstraccion;
 public class InterfazImc {
  public static void main(String []oso){
   Imc indice=new  Imc(1.68f,80);
-  System.out.println("Tu IMC ES:"+indice.calcula_imc());
+  System.out.println("TU IMC ES:"+indice.calcula_imc());
   
  /* System.out.println(indice.calcula_imc());
   
